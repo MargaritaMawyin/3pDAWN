@@ -10,7 +10,7 @@ const { Sequelize, Op } = require('sequelize');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'Proyecto de DAWN por Margarita Mawyin' 
+  res.render('index', { title: 'Proyecto de DAWM por Margarita Mawyin' 
 });
 });
 

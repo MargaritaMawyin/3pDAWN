@@ -1,3 +1,8 @@
+/* body {
+    background: rgb(131, 244, 127);
+    background: linear-gradient(90deg, rgba(131, 244, 127, 1) 18%, rgba(255, 255, 255, 1) 100%);
+} */
+
 mat-form-field {
     width: 100%;
     background-color: rgb(30, 156, 114);
@@ -21,7 +26,7 @@ button:hover{
 }
 .botones{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-top: 25%;
 }
 #telf{

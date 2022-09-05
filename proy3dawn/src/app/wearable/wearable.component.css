@@ -1,11 +1,17 @@
+body {
+    background: rgb(131, 244, 127);
+    background: linear-gradient(90deg, rgba(131, 244, 127, 1) 18%, rgba(255, 255, 255, 1) 100%);
+}
 
-.container{
+.container {
     display: flex;
     justify-items: center;
     padding: 0px 40px;
 }
+
 img {
     width: 60%;
+    margin: 20% 0
 }
 
 
@@ -32,6 +38,7 @@ button:hover {
 
     background-color: rgb(9, 87, 61)
 }
-.boton{
-    margin: 15% 0;
+
+.boton {
+    margin: 25% 0;
 }
