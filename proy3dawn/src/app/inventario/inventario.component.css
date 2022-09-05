@@ -1,0 +1,53 @@
+table {
+    margin-top: .5rem;
+    width: 100%;
+}
+
+mat-form-field {
+    width: 100%;
+    background-color: rgb(30, 156, 114);
+    color: rgb(30, 156, 114);
+
+}
+
+.mat-cell, .mat-row {
+    padding: 0 15px;
+}
+
+.mat-row:nth-child(even) {
+    background-color: #8ebdad;
+}
+
+.mat-row:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+mat-label {
+    font-size: 20px;
+
+}
+
+button {
+    background-color: rgb(30, 156, 114);
+    border: 2px solid none;
+    border-radius: 12px;
+    color: aliceblue;
+    border-style: outset;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.nada{
+    color: rgb(0, 51, 20);
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    background: rgb(138, 252, 214);
+}
+#text{
+    justify-content: center;
+    display: flex;
+}
